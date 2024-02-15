@@ -47,5 +47,3 @@ window.addEventListener('DOMContentLoaded', () => {
     container.style.height = CONTAINER_SIZE + 'px';
     drawGrid(INITIAL_SIZE);
 });
-
-// drawGrid(INITIAL_SIZE);
