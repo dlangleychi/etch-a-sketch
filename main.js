@@ -1,5 +1,5 @@
 const INITIAL_SIZE =  16;
-const CONTAINER_SIZE = 800;
+const CONTAINER_SIZE = 600;
 const SIZE_LIMIT = 100;
 const MAX_COLOR = 256;
 const DARKENING_INCR = 1/11;
