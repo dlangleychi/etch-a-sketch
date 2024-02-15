@@ -1,0 +1,52 @@
+* {
+    /* border: 2px solid red; */
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    --square-border: rgb(162, 223, 223);
+    --square-fill: rgb(238, 231, 242);
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 40px;
+}
+
+#change-size-button {
+    margin: 32px;
+    padding: 12px;
+    align-self: flex-end;
+    background-color: rgb(198, 241, 211);
+    border-radius: 5%;
+}
+
+.container {
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.square {
+    background-color: var(--square-fill);
+    border-top: 2px solid var(--square-border);
+    border-left: 2px solid var(--square-border);
+}
+
+.bottom-row {
+    border-bottom: 2px solid var(--square-border);
+}
+
+.right-column {
+    border-right: 2px solid var(--square-border);
+}
